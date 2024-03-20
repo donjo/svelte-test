@@ -38,6 +38,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "johndonmoye-svelte-test-23"
-          entrypoint: "mod.ts"
+          project: "johndonmoye-svelte-test-3"
+          entrypoint: "index.js"
           root: "build"
